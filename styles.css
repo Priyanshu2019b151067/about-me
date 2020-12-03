@@ -1,0 +1,72 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.nav-bar{
+  background-color: black;
+  height: 30px;
+}
+.nav-bar li{
+  list-style: none;
+  padding: 6px;
+
+}
+ul li a{
+  color: white;
+  display: inline;
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+}
+.container{
+  width: 84%;
+  height: 84%;
+  margin: auto;
+  background-color: #f6f6f6;
+}
+h1{
+  text-align: center;
+  font-family: 'Alfa Slab One', cursive;
+}
+.info{
+  width: 78%;
+  float: left;
+  padding: 39px;
+
+}
+nav ul li{
+  float: left;
+}
+.picture{
+  width: 22%;
+  float: left;
+  padding-top: 40px;
+}
+.group:before,
+.group:after
+{
+  content:"";
+  display: table;
+}
+.group:after
+{
+  clear:both;
+}
+.group{
+  zoom:1;
+}
+footer p {
+  text-align: center;
+}
+header{
+  text-align: center;
+}
+header p{
+  font-family: 'Sacramento', cursive;
+  font-size: 27px;
+}
+ h2{
+  font-family: 'Rock Salt', cursive;
+
+}
